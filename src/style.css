@@ -211,3 +211,52 @@ body {
 }
 
 
+.atendimento{
+margin-left: 10%;
+}
+.call{
+  
+  height:50px ;
+  width: 200px;
+  color: rgb(133, 116, 116);
+  font-size: 1.4em;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.call2{
+   
+  height:50px ;
+  width: 200px;
+  font-size: 1em;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  background-color: red; 
+  cursor: pointer;
+  color: white;
+  
+}
+
+@media(max-width:768px){
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+  
+  }
+  .atendimento{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    }
+    .atendimento h2 {
+      margin-bottom: 3%;
+    }
+}
+  
